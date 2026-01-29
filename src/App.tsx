@@ -4,7 +4,7 @@ import GreetingCard from './components/GreetingCard'
 function App() {
   return (
     <div className="app-container">
-      <GreetingCard name="Narendra Singh" />
+      <GreetingCard name="Khiv Singh" />
     </div>
   )
 }
