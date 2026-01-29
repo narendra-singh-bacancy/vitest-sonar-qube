@@ -4,6 +4,6 @@ import App from './App';
 describe('App', () => {
     it('renders greeting with name', () => {
         render(<App />);
-        expect(screen.getByText(/Narendra Singh/i)).toBeInTheDocument();
+        expect(screen.getByText(/Hello Developer/i)).toBeInTheDocument();
     });
 });
